@@ -1,0 +1,7 @@
+user = testcode1545@gmail.com
+password = project@123
+aryan = aryanupande@gmail.com
+trivedi = hettrivedi32001@gmail.com 
+raj = rajshravge@gmail.com
+riya = riyap3538@gmail.com 
+akansha = akanshanayak131@gmail.com

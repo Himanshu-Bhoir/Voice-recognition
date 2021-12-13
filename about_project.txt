@@ -1,0 +1,63 @@
+abstract:
+
+ this project is a computer assistant build using AI using python langauge. i have used basic of AI tech in this project. project basically takes users audio as an input and then runs it through the algorithm and comes up with an output.sapi5 tool of microsoft is used to take heigh quality audio input. For example it can search things on wikipedia or open any specific web site of yours which is stored already in the program. the assistant gives output in audio form. it wishes user when started and stop excution of program when said "stop". this project is more about the knowlegde of different python modules used in machine learning than writing big codes.
+
+Problem Statement:
+
+	Today's generation is all fan of AI tech and Fanscy cool looking things and want to stand out from others. Myself being a big fan of Marvel Movies (MCU) i was always fasinated with jarvis (the computer assistant of Iron Man one of the lead charater). so when i came to know that i can build something of that kind using my passion of programming, i decided to make this project. its just a start, today the program can performs few things only but one day i will convert my mini project into something big. 
+
+Gathering Requirement
+Python:-
+	Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python supports modules and packages, which encourages program modularity and code reuse.
+	Visit "https://www.python.org/downloads/" to downloaad python
+
+pip:-
+	PIP is a package manager for Python packages, or modules if you like.A package contains all the files you need for a module.Modules are Python code libraries you can include in your project.
+	Visit "https://pypi.org/project/pip/" to download pip
+
+pyttsx3:-
+	pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline and is compatible with both Python 2 and 3. An application invokes the pyttsx3.init() factory function to get a reference to a pyttsx3. Engine instance. it is a very easy to use tool which converts the entered text into speech.
+The pyttsx3 module supports two voices first is female and the second is male which is provided by “sapi5” for windows.
+	Installation: Open terminal and type 
+	pip install pyttsx3
+
+speech recognition:-
+	Speech Recognition is an important feature in several applications used such as home automation, artificial intelligence, etc. This article aims to provide an introduction on how to make use of the SpeechRecognition library of Python. This is useful as it can be used on microcontrollers such as Raspberri Pis with the help of an external microphone.
+	Installation: Open terminal and type 
+	pip install pyaudio
+wikipedia:-
+	The Internet is the single largest source of information, and therefore it is important to know how to fetch data from various sources. And with Wikipedia being one of the largest and most popular sources for information on the Internet. Wikipedia is a multilingual online encyclopedia created and maintained as an open collaboration project by a community of volunteer editors using a wiki-based editing system.
+	Installation: Open terminal and type 
+	pip install wikipedia
+webbrowser:-
+	In Python, webbrowser module is a convenient web browser controller. It provides a high-level interface that allows displaying Web-based documents to users. webbrowser can also be used as a CLI tool. It accepts a URL as the argument with the following optional parameters: -n opens the URL in a new browser window, if possible, and -t opens the URL in a new browser tab. 
+	Installation: Open terminal and type 
+	pip install webbrowser
+
+
+
+
+design:
+	the project starts with firing the wishme() function. this function basically wish user good moring/afternoon etc according to time, then it introduces it self to us .the program gives output in an audio format using a speak function. simultaneously it fires takecommand function which starts listening to the audio and then goes to source to check the audio and convert it to string format. if it fails their i have used google recognition function, it uses google to recognisie the voice. if still not recognize the voice it will let you. the function returns a string.
+	this string is further used by the algorithm to performs tasks. so the algorithm picks a specific keywords and then performs some task. this tasks are like opening an application, searching something on wikipedia, opening an website or stop the program itself. it can even play a random music from given directory.
+
+Outcomes
+By working on a real life project over a period of a time I had development in my skill set. This was a great opportunity for me to show my knowledge and skill set by creating a public project. Key point in enhancement of my skill came in sectors like artificial intelligence and python language. I explored some libraries in python such as Speech recogination,web browser and some others and some python modules too.
+Because of real life nature of the project i saw a improvement in my logic making. working with fixed schedule taught me alot about time management and recourse managment. Increase in moral,knowlegde and my self confidence were visible changes. 
+
+	
+
+References:
+
+for python 3.9 version
+1)	https://docs.python.org
+2)	https://www.python.org/downloads/windows
+for virtual environment of project
+1)	https://pypi.org/project/pipenv/
+2)	https://pipenv.pypa.io/en/latest
+for python modules
+	pyttsx3 : https://pypi.org/project/pyttsx3/
+	speech Recongnition : https://pypi.org/project/SpeechRecognition/
+	wikipedia : https://pypi.org/project/wikipedia/
+	web browser : https://docs.python.org/3/library/webbrowser.html
+
